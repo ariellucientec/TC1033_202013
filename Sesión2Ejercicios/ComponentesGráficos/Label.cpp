@@ -7,11 +7,12 @@ Label::Label()   // Constructor por default
     setText("");
 }
     
-Label::Label(string theText, int theSize)
+Label::Label(string theText, int theSize, Font theFont)
 {
     cout << "soy el constructor con parámetros de Label" << endl;
     setText(theText);
     setSize(theSize);
+    setFont(theFont);
 }
 
 void Label::setText(string theText)
@@ -31,4 +32,14 @@ int Label::getSize()
 string Label::getText()
 {
     return text;
+}
+
+void Label::setFont(Font theFont)
+{
+    font = theFont;
+}
+
+Font Label::getFont()
+{
+    return font;
 }
