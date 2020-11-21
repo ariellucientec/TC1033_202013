@@ -7,7 +7,7 @@ using namespace std;
 class Persona
 {
 
-// CONSTRCUTOR
+// CONSTRUCTOR
 public:
     Persona();
     Persona(string name, int altura, int peso);
