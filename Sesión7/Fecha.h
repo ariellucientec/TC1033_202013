@@ -14,5 +14,7 @@ public:
     Fecha(int dia, int mes, int anio);
     void presentacion();
     //void setDia(int dia);
-    //int getDia();
+    int getDia();
+    int getMes();
+    int getAnio();
 };

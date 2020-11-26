@@ -20,3 +20,16 @@ void Fecha::presentacion()
 {
     cout << dia <<"/"<<mes<<"/"<<anio<<endl;
 }
+
+int Fecha::getDia()
+{
+    return dia;
+}
+int Fecha::getMes()
+{
+    return mes;
+}
+int Fecha::getAnio()
+{
+    return anio;
+}

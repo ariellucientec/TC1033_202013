@@ -1,6 +1,7 @@
 #include<string>
 #include<iostream>
 #include"Fecha.h"
+#include"Calculadora.h"
 
 using namespace std;
 
@@ -8,6 +9,8 @@ using namespace std;
 class Persona
 {
 private:
+    Persona *papa;
+
     string nombre;
     Fecha fechaNacimiento;
 public:
@@ -15,4 +18,6 @@ public:
     Persona(string elNombre, Fecha laFechaDeNacimiento);
 
     void presentacion();
+
+    int getEdad();
 };

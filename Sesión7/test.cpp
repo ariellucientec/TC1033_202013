@@ -9,4 +9,5 @@ int main()
 
     rodrigo.presentacion();
 
+    cout << "la edad es " << rodrigo.getEdad();
 }
