@@ -1,7 +1,8 @@
 #include"Microcomputadora.h"
+#include"PadreDeRelojs.h"
 
 #pragma once
-class Smartwatch
+class Smartwatch : public PadreDeRelojs
 {
 protected:
     Microcomputadora microcomputadora;
