@@ -5,7 +5,7 @@
 using namespace std;
 
 #pragma once
-class Microcomputadora : public Dispositivos, AtributosComunes
+class Microcomputadora : public Dispositivos, public AtributosComunes
 {
 protected:
     string modeloProcesador;

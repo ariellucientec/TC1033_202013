@@ -3,7 +3,7 @@
 #include"AtributosComunes.h"
 
 #pragma once
-class Smartwatch : public PadreDeRelojs, AtributosComunes
+class Smartwatch : public PadreDeRelojs, public AtributosComunes
 {
 protected:
     Microcomputadora microcomputadora;

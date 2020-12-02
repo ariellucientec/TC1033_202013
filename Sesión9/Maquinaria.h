@@ -2,7 +2,7 @@
 #include"Dispositivos.h"
 
 #pragma once
-class Maquinaria : public AtributosComunes, Dispositivos
+class Maquinaria : public AtributosComunes, public Dispositivos
 {
 protected:
     int torque;

@@ -3,7 +3,7 @@
 #include"AtributosComunes.h"
 
 #pragma once
-class RelojMecanico : public PadreDeRelojs, AtributosComunes
+class RelojMecanico : public PadreDeRelojs, public AtributosComunes
 {
 protected:  //privado para el mundo, pero público para sus hijos
     Maquinaria variableMaquinaria;
