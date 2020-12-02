@@ -1,7 +1,16 @@
+#include"AtributosComunes.h"
+#include"Dispositivos.h"
+
 #pragma once
-class Maquinaria
+class Maquinaria : public AtributosComunes, Dispositivos
 {
 protected:
     int torque;
 
+public:
+    Maquinaria();
+    Maquinaria(int torque);
+
+    void setTorque(int elTorque);
+    int getTorque();
 };
